@@ -1,0 +1,22 @@
+{
+    "libri": [
+        {
+            "codiceLibro" : "we", 
+            "autore" : "",
+            "titolo" : "",
+            "editore" : "",
+            "anno" : "",
+            "prezzo" : "",
+            "genere" : ""
+        },
+        {
+            "codiceLibro" : "", 
+            "autore" : "",
+            "titolo" : "",
+            "editore" : "",
+            "anno" : "",
+            "prezzo" : "",
+            "genere" : ""
+        }
+    ]
+}
