@@ -1,26 +1,28 @@
+body{
+	height: 100%;
+	text-align: center;
+}
+
 a{
 	text-align: center;
 	appearance: button;
-	-moz-appearance: button;
 	text-decoration: none;
-	background-color: white;
-	border: 2px solid green;
+	border: 2px solid black;
 	border-radius: 5px;
 	padding: 10px;
 	color: black;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	-moz-animation: fill 4s infinite;
-	background-size: 400% 400%;
+	display: inline-block;
+	margin-top: 15px;
 }
 
-@-moz-keyframes fill {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+#es2{
+	background-image: linear-gradient(to bottom right, red, orange);
+}
+
+#es3{
+	background-image: linear-gradient(to bottom right, #FC5C7D, #6A82FB);
+}
+
+#es4{
+	background-image: linear-gradient(to bottom right, #00b09b, #96c93d);
 }
